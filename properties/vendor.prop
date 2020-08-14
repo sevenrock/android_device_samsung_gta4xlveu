@@ -169,6 +169,7 @@ ro.oem_unlock_supported=1
 
 # Radio
 persist.vendor.radio.enableadvancedscan=true
+ro.telephony.default_network=9
 ro.vendor.use_data_netmgrd=false
 
 # Security
