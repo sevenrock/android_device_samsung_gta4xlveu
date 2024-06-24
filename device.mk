@@ -310,6 +310,7 @@ AB_OTA_UPDATER := false
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.qti \
+    android.hardware.usb.gadget-service.qti \
     init.qcom.usb.rc \
     init.qcom.usb.sh
 
