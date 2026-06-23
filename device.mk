@@ -301,8 +301,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/samsung/gta4xlveu \
-    hardware/google/pixel \
-    hardware/google/interfaces
+    hardware/google/interfaces \
+    hardware/google/pixel/pixelstats \
+    hardware/google/pixel/power-libperfmgr \
+    hardware/google/pixel/thermal
 
 # Updater
 AB_OTA_UPDATER := false
