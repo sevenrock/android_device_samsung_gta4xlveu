@@ -134,6 +134,9 @@ $(call soong_config_set_bool,lineage_health,charging_control_supports_toggle,tru
 PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # JSON
 PRODUCT_PACKAGES += \
     libjson \
