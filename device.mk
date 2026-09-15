@@ -135,6 +135,9 @@ PRODUCT_PACKAGES += \
     libjson \
     libjsoncpp.vendor
 
+# IMS
+$(call inherit-product, hardware/lineage/generic-ims/ims.mk)
+
 # ION
 $(call soong_config_set_bool,libion,legacy_impl,true)
 
