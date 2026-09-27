@@ -466,7 +466,7 @@
         <fqname>@3.1::ISehSupplicant/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.bluetooth.audio</name>
+        <name>vendor.qti.hardware.bluetooth_audio</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
         <interface>
